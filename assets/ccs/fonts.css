@@ -1,0 +1,37 @@
+
+/* --------------------Manrope----------------------- */
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+/* -----------------------Inter---------------------------------------------------------- */
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter_18pt-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}

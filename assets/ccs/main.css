@@ -1,0 +1,180 @@
+@import url("./reset.css");
+@import url("./fonts.css");
+
+/* Pages */
+@import url("./HomePage/main.css");
+/* Pages */
+
+body {
+  font-family: "Manrope";
+}
+.container {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.h__24-yellow {
+  color: #ff5820;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.h__48-black {
+  color: #000;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.h__40-black-bold {
+  color: #000;
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.h__48-white {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.h-48-yellow {
+  color: #ff5820;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.t__20-black {
+  color: #2f2f2f;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.t__20-black-semi {
+  color: #2f2f2f;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.h__64-white {
+  color: #f5f5f5;
+  font-family: Manrope;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.t__40-white {
+  color: #f5f5f5;
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.t__24-white-normal {
+  color: #f5f5f5;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.t__20-white-reg {
+  color: #f5f5f5;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.t__24-black-normal {
+  color: #000;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.t__24-black-reg {
+  color: #000;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.t__24-black-bold{
+color: #000;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.t__24-white-bold {
+  color: #f5f5f5;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btn-white {
+  color: #2f2f2f;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 63px;
+  background: #fff;
+  padding: 17px 39px;
+  align-self: start;
+}
+
+.t__grey {
+  color: #969696;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.h__32-black {
+  color: #000;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.top__title-grey {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+
+.btn__black {
+  color: #fff;
+  padding: 18px 78px;
+  border-radius: 63px;
+  background: #171717;
+}
