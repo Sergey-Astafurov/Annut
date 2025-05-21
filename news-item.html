@@ -73,9 +73,9 @@
   <section class="similar__news">
     <div class="container">
       <div class="similar__news-title h__48-black">Похожие новости</div>
-      <div class="similar__news-slider">
-        <div class="news__list">
-          <div class="news__item">
+      <div class="swiper swiper-news similar__news-slider">
+        <div class="swiper-wrapper news__list">
+          <div class="swiper-slide news__item">
             <div class="news__img ">
               <img src="./assets/img/new.png" alt="">
               <div class="news__text">
@@ -92,7 +92,7 @@
               </div>
             </div>
           </div>
-          <div class="news__item">
+          <div class="swiper-slide news__item">
             <div class="news__img ">
               <img src="./assets/img/new.png" alt="">
               <div class="news__text">
@@ -109,7 +109,7 @@
               </div>
             </div>
           </div>
-          <div class="news__item">
+          <div class="swiper-slide news__item">
             <div class="news__img ">
               <img src="./assets/img/new.png" alt="">
               <div class="news__text">
@@ -126,7 +126,7 @@
               </div>
             </div>
           </div>
-          <div class="news__item">
+          <div class="swiper-slide news__item">
             <div class="news__img ">
               <img src="./assets/img/new.png" alt="">
               <div class="news__text">
@@ -144,6 +144,21 @@
             </div>
           </div>
         </div>
+        <div class="swiper-pagination sw-news-pagination"></div>
+        <div class="sw-news-button-prev">
+          <svg width="72" height="16" viewBox="0 0 72 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0.292893 7.04386C-0.0976333 7.43439 -0.0976334 8.06755 0.292892 8.45808L6.65685 14.822C7.04738 15.2126 7.68054 15.2126 8.07107 14.822C8.46159 14.4315 8.46159 13.7983 8.07107 13.4078L2.41422 7.75097L8.07107 2.09412C8.46159 1.70359 8.46159 1.07043 8.07107 0.679903C7.68054 0.289379 7.04738 0.289379 6.65685 0.679903L0.292893 7.04386ZM72 7.75098L72 6.75098L1 6.75097L1 7.75097L1 8.75097L72 8.75098L72 7.75098Z"
+              fill="black" />
+          </svg>
+
+        </div>
+        <div class="sw-news-button-next"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="16"
+            viewBox="0 0 72 16" fill="none">
+            <path
+              d="M71.7071 8.44807C72.0976 8.05755 72.0976 7.42438 71.7071 7.03386L65.3431 0.669899C64.9526 0.279375 64.3195 0.279375 63.9289 0.669899C63.5384 1.06042 63.5384 1.69359 63.9289 2.08411L69.5858 7.74097L63.9289 13.3978C63.5384 13.7883 63.5384 14.4215 63.9289 14.812C64.3195 15.2026 64.9526 15.2026 65.3431 14.812L71.7071 8.44807ZM0 7.74097V8.74097H71V7.74097V6.74097H0V7.74097Z"
+              fill="black" />
+          </svg></div>
       </div>
     </div>
   </section>
