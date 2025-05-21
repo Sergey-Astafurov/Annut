@@ -1,0 +1,18 @@
+.begin{
+  padding-top: 120px;
+  padding-bottom: 132px;
+}
+.begin__block{
+  padding-top: 70px;
+}
+.begin__list{
+  display: flex;
+}
+.begin__item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.begin__top-slider-right{
+  max-width: 813px;
+}

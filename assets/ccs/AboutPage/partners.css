@@ -1,0 +1,31 @@
+.partners__block{
+  padding-top: 71px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+}
+.partners__title span{
+  color: #FF5820;
+}
+.partners__title{
+
+  max-width: 670px;
+}
+.partners__desc{
+  display: flex;
+  flex-direction: column;
+  max-width: 819px;
+  gap: 50px;
+}
+.partners__list{
+  display: flex;
+  align-items: center;
+  /* border: 15px solid #F2F2F2; */
+  overflow: hidden;
+}
+.partners__item{
+  width: 411px;
+  /* border: 15px solid #F2F2F2; */
+
+}

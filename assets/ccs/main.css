@@ -3,6 +3,7 @@
 
 /* Pages */
 @import url("./HomePage/main.css");
+@import url("./AboutPage/main.css");
 /* Pages */
 
 body {
@@ -12,6 +13,7 @@ body {
   max-width: 1760px;
   margin: 0 auto;
   padding: 0 20px;
+  width: 100%;
 }
 
 .h__24-yellow {

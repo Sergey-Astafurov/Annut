@@ -46,30 +46,32 @@ const swiper2 = new Swiper(".mySwiper2", {
   },
 
 });
+let swiperFacts = null;
 
-const swiperFacts = new Swiper(".swiper-facts", {
+function initFactsSlider() {
+  const mobile = window.innerWidth <= 800;
 
-  slidesPerView: 1,
-  freeMode: false,
-  pagination: {
-    el: '.sw-facts-pagination',
-  },
-  // breakpoints: {
-  //   290: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 100,
-  //   },
-  //   768: {
-  //     slidesPerView: 2,
-  //   },
-  //   1194: {
-  //     slidesPerView: 2,
-  //   },
-  //   1440: {
-  //     slidesPerView: 1,
-  //   },
-  // },
+  if (mobile && !swiperFacts) {
+    swiperFacts = new Swiper(".swiper-facts", {
+      slidesPerView: 'auto',
+      spaceBetween: 30,
+      pagination: {
+        el: '.sw-facts-pagination',
+      },
+    });
+  } else if (!mobile && swiperFacts) {
+    swiperFacts.destroy(true, true);
+    swiperFacts = null;
+  }
+}
+
+let resizeTimeout;
+window.addEventListener("resize", () => {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(initFactsSlider, 200);
 });
+
+initFactsSlider();
 
 const swiperUsely = new Swiper(".sw-usely", {
 
@@ -93,15 +95,41 @@ const swiperUsely = new Swiper(".sw-usely", {
 });
 
 
-    const swiperFeature = new Swiper(".sw-feature", {
-      slidesPerView: 2.2,
-      freeMode: true,
-      loop: true,
+// const swiperFeature = new Swiper(".sw-feature", {
+//   slidesPerView: 1,
+//   freeMode: true,
+//   loop: true,
 
-      // spaceBetween: 50,
+
+//   // spaceBetween: 50,
+// });
+
+
+let swiperFeatures = null;
+
+function initFeatureSlider() {
+  const mobile = window.innerWidth <= 800;
+
+  if (mobile && !swiperFeatures) {
+    swiperFeatures = new Swiper(".sw-feature", {
+      slidesPerView: 'auto',
+      navigation: {
+        nextEl: ".sw-btn-next-feature",
+        prevEl: ".sw-btn-prev-feature",
+      },
     });
+  } else if (!mobile && swiperFeatures) {
+    swiperFeatures.destroy(true, true);
+    swiperFeatures = null;
+  }
+}
 
+window.addEventListener("resize", () => {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(initFeatureSlider, 200);
+});
 
+initFeatureSlider();
 
 
 

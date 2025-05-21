@@ -1,0 +1,20 @@
+.mission{
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+.mission__block{
+  padding-top: 70px;
+
+}
+.mission__left{
+  max-width: 622px;
+  margin-right: auto;
+}
+.mission__title span{
+  color: #FF5820;
+}
+
+.mission__right{
+  max-width: 690px;
+  margin-left: auto;
+}

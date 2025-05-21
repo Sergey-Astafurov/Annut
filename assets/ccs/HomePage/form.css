@@ -5,12 +5,13 @@
 .form__block{
   padding-top: 66px;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* justify-content: space-between; */
   gap: 106px;
 }
 .form__left img{
   max-width: 906px;
+  width: 100%;
   object-fit: cover;
 }
 .form__title{
@@ -65,3 +66,21 @@ line-height: normal;
 
 }
 
+@media (max-width:1300px) {
+  /* .form__left{
+    display: none;
+  } */
+.form__block{
+  flex-direction: column;
+}
+.form__left{
+  order: 1;
+}
+}
+
+@media (max-width:765px) {
+  .form__left{
+    display: none;
+  }
+
+}
