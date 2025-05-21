@@ -1,3 +1,21 @@
+
+
+
+
+const newsItem = document.querySelectorAll('.news__item');
+console.log(newsItem);
+newsItem.forEach(el => {
+  el.addEventListener('hover', (e) => {
+    console.log(e.target);
+  }
+);
+})
+
+
+
+
+
+
 const swiper = new Swiper(".mySwiper", {
   spaceBetween: 90,
   slidesPerView: 5,
